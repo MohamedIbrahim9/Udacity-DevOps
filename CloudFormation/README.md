@@ -20,6 +20,7 @@ To get started with network Layer run: `./Helpers/create.sh networklayer network
 start the server layer : `./Helpers/create.sh serverlayer server.yml serverparams.json`
 
 to delete the stack run : 
+
 `./Helpers/delete.sh networklayer`
 
 `./Helpers/delete.sh serverlayer`
