@@ -15,9 +15,11 @@ the main dependices are aws-cli and using any code editor like VSCode
 
 ## Running the project
 
-To get started with network Layer run: `./Helpers/create.sh networklayer network.yml networkparams.json`
+To get started with project run the following commands : 
 
-start the server layer : `./Helpers/create.sh serverlayer server.yml serverparams.json`
+Network Layer :  `./Helpers/create.sh networklayer network.yml networkparams.json`
+
+Server layer : `./Helpers/create.sh serverlayer server.yml serverparams.json`
 
 to delete the stack run : 
 
