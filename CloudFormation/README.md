@@ -16,10 +16,12 @@ the main dependices are aws-cli and using any code editor like VSCode
 ## Running the project
 
 To get started with network Layer run: `./Helpers/create.sh networklayer network.yml networkparams.json`
-then the server layer : `./Helpers/create.sh serverlayer server.yml serverparams.json`
+
+start the server layer : `./Helpers/create.sh serverlayer server.yml serverparams.json`
 
 to delete the stack run : 
 `./Helpers/delete.sh networklayer`
+
 `./Helpers/delete.sh serverlayer`
 
 **You can test the application via this link** : [http://serve-WebAp-2414K7W11HTS-946754465.us-west-2.elb.amazonaws.com](http://serve-WebAp-2414K7W11HTS-946754465.us-west-2.elb.amazonaws.com)
